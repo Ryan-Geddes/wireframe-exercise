@@ -1,26 +1,121 @@
 
-
-section{
+header{
+    height: 100px;
+    width: 1150px;
+    background-color: grey;
+    margin: auto;
+    position: relative;
+}
+div{
     display: inline-block;
-
+    float: left;
+    margin-left: 96px;
+    margin-top: 15px;
 }
 nav{
-    border:solid 1px black;
-    width: 500px;
+    /* border:solid 1px black; */
+    width: 1150px;
     margin: auto;
     text-align: center;
+    overflow: hidden;
 }
 ul {
-    border:solid 1px black;
+    /* border:solid 1px black; */
+    width:800px;
     text-align: center;
+    margin-top: 45px;
+    margin-left:110px;
 }
 li {
     display: inline-block;
-    border:solid 1px black;
+    /* border:solid 1px black; */
     margin: auto;
     text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 60px;
 
 }
-p {
-    border: 10px black;
+#hero {
+    margin-left: 233px;
+    margin-top: 30px;
 }
+
+#subbanners{
+    /* border:solid 1px black; */
+    text-align:center;
+    display:inline-block;
+    margin-left: 233px;
+    margin-top: 30px;
+}
+
+.subbanner{
+    border:none;
+    float:left;
+    padding:0px;
+    margin:0px;
+    margin-right: 30px;
+}
+.subbanner3{
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+#featured{
+    /* border:solid 1px black; */
+    text-align:center;
+    display:inline-block;
+    margin-left: 233px;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.featuresimg{
+    /* border:solid 1px black; */
+    float: left;
+    padding:0px;
+    margin:0px;
+    margin-right: 30px; 
+}
+.featurestext{
+    /* border:solid 1px black; */
+    float: left;
+    text-align:left;
+    padding:0px;
+    height: 400px;
+    width: 450px;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+p {
+    /* border: solid 1px black; */
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    height: 348px;
+    width: 450px;
+    margin-bottom:5px;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: grey;
+    font-size:16px;
+    border:none;
+    transition-duration:350ms;
+    width:150px;
+    height:30px;
+}
+button:hover{
+    background-color: aqua;
+}
+
+footer{
+    height: 50px;
+    width: 1150px;
+    background-color: grey;
+    margin: auto;
+    position: relative;
